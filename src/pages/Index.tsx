@@ -6,12 +6,14 @@ import Benefits from "@/components/landing/Benefits";
 import Testimonials from "@/components/landing/Testimonials";
 import CTA from "@/components/landing/CTA";
 import Footer from "@/components/landing/Footer";
+import PainPoints from "@/components/landing/PainPoints";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <Hero />
+      <PainPoints />
       <VideoSection />
       <Features />
       <Benefits />
